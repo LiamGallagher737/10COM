@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    margin: 5rem 20rem 5rem 20rem;
+    padding: 5rem 8rem 5rem 8rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    padding-bottom: 1.5rem;
+    font-weight: bolder;
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+
+h3 {
+    padding-bottom: 0.5rem;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+li {
+    margin-left: 1rem;
+}
+
+img {
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
