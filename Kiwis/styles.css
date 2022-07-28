@@ -1,18 +1,18 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 html {
-    background-color: white;
+    background-color: #1a1627;
 }
 
 body {
     margin: 5rem 20rem 5rem 20rem;
     padding: 5rem 8rem 5rem 8rem;
-    background-color: whitesmoke;
-    border-radius: 1rem;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 h1 {
@@ -30,14 +30,35 @@ h3 {
 
 p {
     padding-bottom: 1rem;
+    color: #bdb5b7;
 }
 
 li {
     margin-left: 1rem;
+    color: #bdb5b7;
 }
 
 img {
     margin-top: 2rem;
     border-radius: 1rem;
     width: 100%;
+}
+
+.paragraph_container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.paragraph {
+    position: relative;
+    background-color: #231d35;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    transition: 0.3s;
+}
+
+.paragraph:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: scale(102%);
 }
